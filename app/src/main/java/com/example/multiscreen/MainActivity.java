@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "please enter a sufficient data", Toast.LENGTH_SHORT).show();
         }
         else {
-            String massage = "your order of " + editText1.getText().toString() + "," + editText2.getText().toString() + "and" +
+            String massage = "your order of " + editText1.getText().toString() + " ," + editText2.getText().toString() + " and" +
                     editText3.getText().toString() + " has successfully placed";
             intent.putExtra(msg, massage);
             startActivity(intent);
